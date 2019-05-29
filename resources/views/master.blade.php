@@ -22,7 +22,7 @@
 						<a href=""></a>
 						<a href=""></a>
 						<a href="#" class="menu1">About</a>
-				    	<a href="/form" class="menu2">Search</a>
+				    	<a href="/search" class="menu2">Search</a>
 				    	<a href="#feature" class="menu3">Feature</a>
 			  	</div>
 			  	</div>
@@ -44,17 +44,7 @@
 				<div class="splash white accent-1"><img class="responsive-img" src="./img/people.png" width="80%"></div>
 			</div>	
 				<div class="join blue lighten-1">
-					<!-- <div>
-						<br>
-						<p class="menu4">Cari Nama Kabupaten :</p>
-							<input id="kabupaten" class="searchbar" type="text" name="search">
-						<br>
-						<button class="btn-search" type="button">SEARCH</button>
-						<br>
-						<br>
-						<br>
-						<br>
-						<div id="list"></div> -->
+					
 					</div>
 				</div>
 					<div class="feature-inside blu accent-1">
