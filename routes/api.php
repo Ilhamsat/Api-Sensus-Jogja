@@ -29,14 +29,15 @@ Route::delete('jumlahKelahiran/{id}','JumlahKelahiranController@destroy');
 
 //tabel pendidikan
 Route::get('pendidikans','PendidikanController@index');
-Route::get('pendidikan/{id}','PendidikanController@show');
 Route::get('pendidikans','PendidikanController@getData');
+Route::get('pendidikan/{id}','PendidikanController@show');
 Route::post('pendidikan','PendidikanController@store');
 Route::put('pendidikan','PendidikanController@store');
 Route::delete('pendidikan/{id}','PendidikanController@destroy');
 
 //tabel jumlah penduduk
 Route::get('jumlahPenduduks','JumlahPendudukController@index');
+Route::get('jumlahPenduduks','JumlahPendudukController@getData');
 Route::get('jumlahPenduduk/{id}','JumlahPendudukController@show');
 Route::post('jumlahPenduduk','JumlahPendudukController@store');
 Route::put('jumlahPenduduk','JumlahPendudukController@store');
@@ -44,6 +45,7 @@ Route::delete('jumlahPenduduk/{id}','JumlahPendudukController@destroy');
 
 //tabel ketenagakerjaan
 Route::get('ketenagakerjaans','KetenagakerjaanController@index');
+Route::get('ketenagakerjaans','KetenagakerjaanController@getData');
 Route::get('ketenagakerjaan/{id}','KetenagakerjaanController@show');
 Route::post('ketenagakerjaan','KetenagakerjaanController@store');
 Route::put('ketenagakerjaan','KetenagakerjaanController@store');

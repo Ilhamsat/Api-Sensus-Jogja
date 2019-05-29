@@ -87,4 +87,19 @@ class JumlahPendudukController extends Controller
             return new JumlahPendudukResource($jumlahPenduduk);
         }
     }
+
+    public function getData(Request $request){
+        $list = [];
+    //     if($request->input('gender') !=null){
+    //         $list = Post::where('gender','=',$request->input('gender'))->get();
+    //     }
+        
+    //    else if($request->input('lokasi') !=null){
+    //         $list = Post::where('lokasi','like','%'.$request->input('lokasi').'%')->get();
+    //     }
+        if($request->input('kabupaten') !=null){
+            $list = JumlahPenduduk::where('kabupaten','like','%'.$request->input('kabupaten').'%')->get();
+        }  
+        return response()->json($list);
+    }
 }
