@@ -2,7 +2,7 @@
 <div class="header">
 				<div class="container">
 			    <div class="topnav">
-						<div><img src="./img/logosis.png" width="130%"></div>	
+						<div><a href="/"><img src="./img/logosis.png" width="130%"></div></a>	
 						<a href=""></a>
 						<a href=""></a>
 						<a href=""></a>

@@ -12,12 +12,16 @@
 @section('main')
 <main>
 <div>
-	
-	<p class="menu4">Cari Nama Kabupaten :</p>
+	<div class="searching">
+		<div>
+		<p class="menu4">Cari Nama Kabupaten :</p>
+		</div>
+		<div>
 		<input id="kabupaten" class="searchbar" type="text" name="search" placeholder="Nama Kabupaten">
-	<br>
+		</div>
+	
 	<button class="btn-search" type="button">SEARCH</button>
-	<br>
+	</div>
 	
 	<div class="show">
 	<table  id="customers">
